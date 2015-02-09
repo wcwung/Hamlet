@@ -1,0 +1,7 @@
+#Amazon EC2 Instructions
+
+1. `ssh -i ghost.pem ec2-user@<willwung.com>`
+2. `cd /var/www/ghost/content/themes/Hamlet/`
+3. `sudo sh`
+4. `git pull origin master`
+5. `pm2 restart ghost`
